@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(237, 234, 234);
+}
+
+.whole{
+    display: flex;
+}
+
+.buttons{
+    position: absolute;
+    left: 800px;
+}
+
+.alpaca{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ears{
+    position: absolute;
+    z-index: 1;
+}
+
+.mouth{
+    position: absolute;
+    z-index: 3;
+}
+
+.background{
+    position: absolute;    
+}
+
+.leg{
+    position: absolute;
+   z-index: 1;
+}
+
+.nose{
+    position: absolute;
+    z-index: 2;
+}
+
+.hair{
+    position: absolute;
+    z-index: 1;
+}
+
+.eyes{
+    position: absolute;
+    z-index: 2;
+}
+
+.neck{
+    position: absolute;
+    z-index: 1;
+}
+
+.accessories{
+    position: absolute;
+    z-index: 1;
+}
+
+button{
+    border-radius: 5px;
+    color: lightblue;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.eachbtn{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.each{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    background-color: darkblue;
+}
